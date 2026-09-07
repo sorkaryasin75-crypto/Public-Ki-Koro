@@ -6,7 +6,7 @@ from telegram import Bot
 from telegram.error import TelegramError
 
 # --- কনফিগারেশন ---
-BOT_TOKEN = "8724006661:AAFNXK3qskksYUNJ_fVJQRia72_aNtGjMwY"  # আপনার বট টোকেন দিন
+BOT_TOKEN = "8724006661:AAF0xcleV67AbrFfLhJ2LvUMoh9m_UFG7dA"  # আপনার বট টোকেন দিন
 CHAT_ID = "-1002352180501"  # আপনার টেলিগ্রাম গ্রুপের CHAT ID দিন (অবশ্যই মাইনাস সহ)
 
 bot = Bot(token=BOT_TOKEN)
