@@ -57,8 +57,8 @@ async def auto_send_messages():
         except Exception as e:
             print(f"[ERROR] অজানা সমস্যা: {e}")
             
-        # ৬ মিনিট পর পর মেসেজ পাঠাবে (৬ মিনিট = ৩৬০ সেকেন্ড)
-        await asyncio.sleep(360)
+        # ১ মিনিট পর পর মেসেজ পাঠাবে (১ মিনিট = ৬০ সেকেন্ড)
+        await asyncio.sleep(60)
 
 # Lifespan ইভেন্ট (FastAPI সার্ভার চালু ও বন্ধ হওয়ার সময় রান করবে)
 @asynccontextmanager
